@@ -1,5 +1,4 @@
 html {
-    background-color: rgb(253, 242, 233);
     font-family: 'Rubik', sans-serif;
 }
 
@@ -53,56 +52,71 @@ nav ul li a:hover {
 }
 
 .box1 {
-    margin-left: 10rem;
-    width: 40%;
+    width: 50%;
+    height: 707px;
+    float: left;
+    background-color: rgb(253, 242, 233);
+}
+
+.box2 {
+    background-color: rgb(253, 242, 233);
+    width: 50%;
+    height: 707px;
     float: left;
 }
 
 h1 {
-    font-size: 3.7rem;
+    font-size: 3.5rem;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 50px;
 }
 
 #doanvan1 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    margin-left: 150px;
+    margin-right: 50px;
 }
 
 div ul {
     list-style: none;
     display: flex;
     gap: 20px;
-    padding: 0px;
+    margin-top: 70px;
+    margin-left: 110px;
 }
 
 div ul li a {
     text-decoration: none;
     font-size: 1.3rem;
-    color: black;
+    /* color: black; */
 }
 
-#try1 {
+.try1 {
     border: 1px solid rgb(230, 126, 34);
     padding: 20px 30px;
     border-radius: 1ch;
     background-color: rgb(230, 126, 34);
+    color: white;
 }
 
-#try1:hover {
+.try1:hover {
     background-color: rgb(207, 113, 31);
 }
 
-#try2 {
-    color: black;
+.try2 {
+    /* color: black; */
     border: 5px solid white;
     padding: 15px 30px;
     border-radius: 1ch;
     background-color: white;
 }
 
-#try2:hover {
+.try2:hover {
     background-color: rgb(253, 242, 233);
 }
 
 .img1 {
     height: 600px;
-    padding: 30px 80px;
+    padding: 50px 80px;
 }
